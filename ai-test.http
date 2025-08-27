@@ -1,0 +1,14 @@
+### ollama 사용
+GET /ai?input=한국에서 가장 많이 팔린 SUV 모델을 알려줘&model=ollama HTTP/1.1
+Host: localhost:8080
+Accept-Language: kr-KO,en;q=0.9
+
+### vertex 사용
+GET /ai?input=한국에서 가장 많이 팔린 SUV 모델을 알려줘&model=vertex HTTP/1.1
+Host: localhost:8080
+Accept-Language: kr-KO,en;q=0.9
+
+### 영어로 응답
+GET /ai?input=한국에서 가장 많이 팔린 SUV 모델을 알려줘&model=ollama HTTP/1.1
+Host: localhost:8080
+Accept-Language: en-US,en;q=0.9
